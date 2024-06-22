@@ -4,12 +4,23 @@ html {
 
 /* Your CSS below here */
 
-*
+.box
 {
-  align: center;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border: 1px solid rgb(186, 0, 0);
+  border-radius: 10px;
+  margin-top: 200px;
+  margin-left: 500px;
+  box-shadow: 3px 3px 8px #88888877, inset 3px 3px 8px rgba(255, 255, 255, 0.879), inset -3px -3px 8px rgba(0, 0, 0, 0.500);
+
+  padding: 20px;
+  text-align: center;
+  line-height: 200px;
+
+  color: white;
+  font-size: calc(100% + 9px); /* */
+  text-shadow: 1px 1px 2px black ;
 }
 
-p 
-{
-  font-size: 17;
-}
